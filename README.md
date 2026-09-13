@@ -59,8 +59,8 @@
 
 ## دسترسی به پنل ادمین
 
-username admin: admin
-password admin: 1234
+1.username admin: admin
+2.password admin: 1234
 
 ## وضعیت پروژه
 
