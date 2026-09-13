@@ -1,0 +1,197 @@
+.a{
+    min-height: 90vh;
+}
+.a-index{
+    width: 100vw;
+    height: 90vh;
+    background-color: #f4f6f9;
+}
+.foot{
+    position: relative;
+    right: 0;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.vorrod{
+    width: 80% !important;
+    text-align: center !important;
+    /* background-color: rgb(176, 0, 0) !important; */
+    margin: auto !important;
+    position: relative !important;
+    margin-top: 20px !important;
+    /* display: block !important; */
+    /*right: 50% !important;*/
+
+
+}
+.but-vorrod{
+    width: 50px;
+    /* background-color: red; */
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    color: blue;
+    transition: 0.2s;
+}
+.but-vorrod:hover{
+    background-color: rgba(8, 8, 8, 0.194);
+    color: blue;
+}
+.gh1{
+    width: 80vw;
+    /* height: 200px; */
+    /* background-color: aqua; */
+    position: relative;
+    margin: auto;
+}
+.gh1-tex1{
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(0, 0, 150);
+    text-align: center;
+}
+.gh1-tex2{
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(211, 102, 0);
+    text-align: center;
+}
+.titr{
+    position: relative;
+    border-radius: 5px;
+    margin-right: 20px;
+    /* right: 20px; */
+    border: 1px solid rgba(0, 0, 0, 0.43) ;
+}
+.ersal{
+    width: 200px;
+    margin-right: 50px;
+}
+.titr1{
+    position: relative;
+    border-radius: 5px;
+    margin-right: 20px;
+    /* right: 20px; */
+    border: 1px solid rgba(0, 0, 0, 0.43) ;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    display: block;
+}
+.form-vorood{
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    /* top: 20px; */
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+
+}
+.ersal1{
+    width: 14%;
+    right: 43%;
+    /* margin-right: 50px; */
+    background-color: transparent;
+    border-radius: 5px;
+    position: relative;
+    /* top: 20px; */
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0) ;
+    background-color: rgb(255, 82, 82);
+}
+.ersal1:hover{
+    background-color: rgba(255, 82, 82, 0.693);
+
+}
+.box1{
+    width: 1500px;
+    height: 200px;
+    /*background: rgba(255, 0, 0, 0.47);*/
+    position: relative;
+    top: 50px;
+
+}
+.gh-book1{
+    width: 150px;
+    height: 200px;
+    background: rgba(0, 32, 255, 0.78);
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+    border-radius: 20px ;
+    margin-top: 20px;
+}
+.t1-book1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+.t2-book1{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    bottom: 50px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+.t3-book1{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+.main-footer{
+    height: 60px;
+    /*background-color: #00a65a;*/
+    position: relative;
+}
+
+.d24p-option-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.d24p-option-title {
+    font-size: 16px;
+}
+
+.d24p-option-row select {
+    width: 150px;
+    height: 38px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #222;
+}
+.spec-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.spec-row input {
+    flex: 1;
+}

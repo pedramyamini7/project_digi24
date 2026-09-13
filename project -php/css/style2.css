@@ -1,0 +1,662 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../font/yekan/BYekan.eot');
+    src: url('../font/yekan/BYekan.eot?#iefix') format('embedded-opentype'),
+    url('../font/yekan/BYekan.woff') format('woff'),
+    url('../font/yekan/BYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'tanha';
+    src: url('../font/tanha/Tanha.eot');
+    src: url('../font/tanha/Tanha.eot?#iefix') format('embedded-opentype'),
+    url('../font/tanha/Tanha.woff') format('woff'),
+    url('../font/tanha/Tanha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* =========================
+   GENERAL
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #fcfcfc;
+    font-family: 'yekan' ;
+
+
+
+    direction: rtl;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+    background: #fff;
+}
+
+.header-top {
+    height: 95px;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+
+/* Search */
+
+.search-box {
+    height: 38px;
+
+    background: #eeeeee;
+
+    border-radius: 7px;
+
+    display: flex;
+
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.search-box input {
+    flex: 1;
+
+    height: 100%;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    padding: 0 15px;
+
+    text-align: right;
+
+    font-size: 13px;
+}
+
+.search-box button {
+    width: 45px;
+
+    height: 100%;
+
+    border: none;
+
+    background: transparent;
+
+    font-size: 18px;
+
+    color: #888;
+}
+
+
+/* Icons */
+
+.icons {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+}
+
+.icons img {
+    width: 25px;
+
+    height: 25px;
+
+    object-fit: contain;
+}
+
+.divider {
+    width: 1px;
+
+    height: 28px;
+
+    background: #ddd;
+}
+
+
+
+/* =========================
+   MENU
+========================= */
+
+.main-menu {
+    border-top: 1px solid #eee;
+
+    border-bottom: 1px solid #ddd;
+
+    height: 42px;
+
+    display: flex;
+
+    align-items: center;
+}
+
+.main-menu ul {
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 30px;
+}
+
+.main-menu li {
+    white-space: nowrap;
+}
+
+.main-menu a {
+    text-decoration: none;
+
+    color: #777;
+
+    font-size: 13px;
+
+    transition: .2s;
+}
+
+.main-menu a:hover {
+    color: #e60087;
+}
+
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    height: 185px;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.pink-shape {
+    position: absolute;
+
+    top: 0;
+
+    right: -5%;
+
+    width: 110%;
+
+    height: 125px;
+
+    background: #ec008c;
+
+    transform: skewY(-7deg);
+
+    transform-origin: right top;
+}
+
+.camera {
+    position: relative;
+
+    z-index: 2;
+
+    width: 330px;
+
+    margin-top: -10px;
+
+    margin-right: 70px;
+}
+
+
+
+/* =========================
+   ABOUT
+========================= */
+
+.about-section {
+    padding: 35px 0 60px;
+
+    background: #fff;
+}
+
+.about-content {
+    max-width: 950px;
+
+    margin: auto;
+
+    text-align: right;
+}
+
+.about-content h2 {
+    font-size: 25px;
+
+    color: #222;
+
+    margin-bottom: 20px;
+}
+
+.about-content h2 span {
+    color: #222;
+}
+
+.about-content p {
+    font-size: 14px;
+
+    line-height: 2.5;
+
+    margin-bottom: 5px;
+
+    color: #777;
+}
+
+
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact-section {
+    padding: 25px 0 65px;
+}
+
+.contact-section h3 {
+    font-size: 17px;
+
+    color: #333;
+
+    margin-bottom: 15px;
+
+    font-weight: bold;
+}
+
+
+/* Contact info */
+
+.contact-info p {
+    font-size: 13px;
+
+    line-height: 2;
+
+    margin: 5px 0;
+}
+
+
+/* Work */
+
+.work-time img {
+    width: 100%;
+
+    max-width: 180px;
+
+    height: 120px;
+
+    object-fit: cover;
+
+    display: block;
+
+    margin-bottom: 8px;
+}
+
+.work-time p {
+    font-size: 13px;
+
+    margin: 5px 0;
+}
+
+
+
+/* Form */
+
+.contact-form form {
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+
+    border: 1px solid #e1e1e1;
+
+    outline: none;
+
+    padding: 10px;
+
+    margin-bottom: 8px;
+
+    font-family: inherit;
+
+    font-size: 12px;
+
+    text-align: right;
+
+    direction: rtl;
+}
+
+.contact-form input {
+    height: 40px;
+}
+
+.contact-form textarea {
+    height: 150px;
+
+    resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #e60087;
+}
+
+.contact-form button {
+    border: none;
+
+    background: #e60087;
+
+    color: #fff;
+
+    padding: 10px 28px;
+
+    font-family: inherit;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+.contact-form button:hover {
+    background: #c90076;
+}
+
+
+
+/* =====================
+====
+   FOOTER
+========================= */
+
+.footer {
+    background: #eeeeee;
+
+    position: relative;
+
+    margin-top: 30px;
+
+    padding-top: 45px;
+}
+
+.footer-box {
+    background: #eeeeee;
+
+    min-height: 230px;
+
+    border-radius: 25px 25px 0 0;
+
+    padding: 30px 40px;
+
+    display: grid;
+
+    grid-template-columns:
+        1.2fr
+        1fr
+        1fr
+        1.7fr;
+
+    gap: 35px;
+
+    box-shadow:
+            0 -2px 8px rgba(0, 0, 0, .12);
+}
+
+.footer-column h3 {
+    font-size: 16px;
+
+    color: #333;
+
+    border-bottom: 2px solid #8d0050;
+
+    display: inline-block;
+
+    padding-bottom: 8px;
+
+    margin-bottom: 12px;
+}
+
+.footer-column ul {
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+.footer-column li {
+    font-size: 12px;
+
+    margin: 9px 0;
+
+    color: #555;
+}
+
+.about-footer p {
+    font-size: 12px;
+
+    line-height: 2;
+
+    margin: 4px 0;
+}
+
+
+
+/* Newsletter */
+
+.newsletter {
+    display: flex;
+
+    width: 100%;
+}
+
+.newsletter input {
+    flex: 1;
+
+    height: 35px;
+
+    border: none;
+
+    outline: none;
+
+    padding: 0 10px;
+
+    text-align: right;
+
+    font-family: inherit;
+}
+
+.newsletter button {
+    width: 70px;
+
+    border: none;
+
+    background: #e60087;
+
+    color: #fff;
+
+    font-family: inherit;
+}
+
+.social {
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 12px;
+}
+
+.social span {
+    color: #e60087;
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+
+/* Copyright */
+
+.copyright {
+    height: 45px;
+
+    border-top: 1px solid #ccc;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 11px;
+
+    color: #222;
+}
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .header-top {
+        height: auto;
+
+        padding: 15px 0;
+
+        gap: 15px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .search-box {
+        height: 35px;
+    }
+
+    .icons img {
+        width: 21px;
+
+        height: 21px;
+    }
+
+    .main-menu {
+        height: auto;
+
+        padding: 10px 0;
+
+        overflow-x: auto;
+    }
+
+    .main-menu ul {
+        justify-content: flex-start;
+
+        gap: 20px;
+
+        padding: 0 15px;
+
+        width: max-content;
+    }
+
+    .main-menu a {
+        font-size: 11px;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        height: 130px;
+    }
+
+    .pink-shape {
+        height: 90px;
+    }
+
+    .camera {
+        width: 210px;
+
+        margin-right: 15px;
+
+        margin-top: 0;
+    }
+
+
+    /* About */
+
+    .about-section {
+        padding: 25px 15px 35px;
+    }
+
+    .about-content h2 {
+        font-size: 20px;
+    }
+
+    .about-content p {
+        font-size: 12px;
+
+        line-height: 2.2;
+    }
+
+
+    /* Contact */
+
+    .contact-section {
+        padding: 20px 15px 40px;
+    }
+
+    .contact-info,
+    .work-time {
+        margin-bottom: 25px;
+    }
+
+
+    /* Footer */
+
+    .footer-box {
+        grid-template-columns: 1fr;
+
+        padding: 25px 20px;
+
+        gap: 25px;
+    }
+
+    .about-footer {
+        order: -1;
+    }
+
+}
