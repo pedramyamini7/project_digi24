@@ -9,3 +9,6 @@
 3. فایل `database/digi24.sql` را Import کنید.
 4. تنظیمات اتصال به دیتابیس را در فایل تنظیمات پروژه وارد کنید.
 5. پروژه را اجرا کنید.
+
+username admin: admin
+password admin: 1234
