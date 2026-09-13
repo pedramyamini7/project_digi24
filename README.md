@@ -29,6 +29,14 @@
 - مدیریت کاربران
 - مدیریت بخش‌های مختلف فروشگاه
 
+## دسترسی به پنل ادمین
+
+username admin: admin
+
+password admin: 1234
+
+http://localhost/project%20-php/admin/index.php
+
 ## تکنولوژی‌های استفاده‌شده
 
 - **PHP**
@@ -57,13 +65,7 @@
 8. http://localhost/project%20-php/
 
 
-## دسترسی به پنل ادمین
 
-username admin: admin
-
-password admin: 1234
-
-http://localhost/project%20-php/admin/index.php
 
 ## وضعیت پروژه
 
