@@ -63,6 +63,8 @@ username admin: admin
 
 password admin: 1234
 
+http://localhost/project%20-php/admin/index.php
+
 ## وضعیت پروژه
 
 🚧 این پروژه در حال توسعه است و ممکن است در آینده امکانات و بخش‌های جدیدی به آن اضافه شود.
